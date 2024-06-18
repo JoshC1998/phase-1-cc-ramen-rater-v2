@@ -31,10 +31,10 @@ function newItem(event) {
 event.preventDefault();
 const newRamen = {
 name: event.target.name.value,
-restaurant: event.target.restaurant.value, // Corrected here
+restaurant: event.target.restaurant.value,
 image: event.target.image.value,
 rating: event.target.rating.value,
-comment: event.target['new-comment'].value, // Corrected here
+comment: event.target['new-comment'].value, 
 };
 displayRamen(newRamen);
 event.target.reset();
